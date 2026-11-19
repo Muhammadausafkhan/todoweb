@@ -16,7 +16,7 @@ export default function AddTask() {
       completed:false
     }
 
-    await axios.post("http://localhost:3000/todo",newTodo)
+    await axios.post("https://github.com/Muhammadausafkhan/todoweb",newTodo)
     navigate("/")
   }
 
